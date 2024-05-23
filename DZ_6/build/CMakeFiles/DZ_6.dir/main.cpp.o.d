@@ -1,5 +1,6 @@
-CMakeFiles/DZ_6.dir/main.cpp.o: /home/user/project/DZ_6_test/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+CMakeFiles/DZ_6.dir/main.cpp.o: \
+ /home/user/project/GromovStudy/DZ_6/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/12/iostream \
  /usr/include/c++/12/x86_64-redsoft-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
  /usr/include/c++/12/x86_64-redsoft-linux/bits/os_defines.h \
