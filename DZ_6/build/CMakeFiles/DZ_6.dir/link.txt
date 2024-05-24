@@ -1,1 +1,1 @@
-/usr/lib64/ccache/c++ CMakeFiles/DZ_6.dir/main.cpp.o -o DZ_6 
+/usr/lib64/ccache/c++ CMakeFiles/DZ_6.dir/main.cpp.o CMakeFiles/DZ_6.dir/function.cpp.o -o DZ_6 

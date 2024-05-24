@@ -1,52 +1,42 @@
-#include <iostream>
-#include <string>
-#include <fstream>
-using namespace std;
+// #include <iostream>
+// #include <string>
+// #include <fstream>
+// #include <vector>
+#include "function.h"
 
-
+//using namespace std;
 
 int main()
 {
 
-    string line;
+    vector<string>fileContent;
     string nameFile;
     fstream data;
+    data.open(nameFile);
 
-    cout << "Укажите файл= ";
+    cout << "Введите имя файла (если файл не найден он будет создан): ";
     cin >> nameFile;
 
-    // запись
-    data.open(nameFile,ios::app |ios::out);
     // Проверка на открытие и чтение
-    if(!data.is_open()){
-        cout << "Cannot open file" << endl;
-        return 1;
+    if(data){
+        cout << "Этот файл существует" << endl;
     }
     else {
-        int a;
-        for (int i=0; i<5; i++){
-            cout << "a= ";
-            cin >> a ;
-            data << a << " ";
-        }
+        // Если не существует создать заного
+        data.open(nameFile, ios::out);
+        cout << "Создан файл: " << nameFile << endl;
     }
-    data.close();
 
-    // чтение
-    data.open(nameFile,ios::app | ios::in); // создать*
+    //read file content in vector
+    readContent(data, fileContent);
 
-    // Проверка на открытие и чтение
-    if(!data.is_open()){
-        cout << "Cannot open file" << endl;
-        return 1;
+    // Работа меню
+    while(true){
+
+        takeAction(menu(), fileContent, nameFile);
+        cout << "\n";
     }
-    else {
-        cout << "File open - " << nameFile << endl;
-        char ch;
-        while (data.get(ch)){
-            cout << ch ;
-        }
-    }
+
     data.close();
 
     return 0;

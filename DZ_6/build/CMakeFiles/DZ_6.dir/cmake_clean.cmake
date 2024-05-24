@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DZ_6.dir/function.cpp.o"
+  "CMakeFiles/DZ_6.dir/function.cpp.o.d"
   "CMakeFiles/DZ_6.dir/main.cpp.o"
   "CMakeFiles/DZ_6.dir/main.cpp.o.d"
   "DZ_6"

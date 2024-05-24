@@ -129,6 +129,30 @@ DZ_6/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/build
 .PHONY : DZ_6/fast
 
+function.o: function.cpp.o
+.PHONY : function.o
+
+# target to build an object file
+function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/function.cpp.o
+.PHONY : function.cpp.o
+
+function.i: function.cpp.i
+.PHONY : function.i
+
+# target to preprocess a source file
+function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/function.cpp.i
+.PHONY : function.cpp.i
+
+function.s: function.cpp.s
+.PHONY : function.s
+
+# target to generate assembly for a file
+function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/function.cpp.s
+.PHONY : function.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DZ_6"
+	@echo "... function.o"
+	@echo "... function.i"
+	@echo "... function.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

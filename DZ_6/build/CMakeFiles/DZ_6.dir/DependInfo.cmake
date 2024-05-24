@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/user/project/GromovStudy/DZ_6/function.cpp" "CMakeFiles/DZ_6.dir/function.cpp.o" "gcc" "CMakeFiles/DZ_6.dir/function.cpp.o.d"
   "/home/user/project/GromovStudy/DZ_6/main.cpp" "CMakeFiles/DZ_6.dir/main.cpp.o" "gcc" "CMakeFiles/DZ_6.dir/main.cpp.o.d"
   )
 

@@ -81,12 +81,12 @@ clean: CMakeFiles/DZ_6.dir/clean
 CMakeFiles/DZ_6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_6.dir/build.make CMakeFiles/DZ_6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_6/build/CMakeFiles --progress-num=1,2 "Built target DZ_6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_6/build/CMakeFiles --progress-num=1,2,3 "Built target DZ_6"
 .PHONY : CMakeFiles/DZ_6.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DZ_6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_6/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_6/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DZ_6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_6/build/CMakeFiles 0
 .PHONY : CMakeFiles/DZ_6.dir/rule

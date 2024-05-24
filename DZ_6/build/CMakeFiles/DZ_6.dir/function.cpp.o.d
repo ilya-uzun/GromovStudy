@@ -1,5 +1,6 @@
-CMakeFiles/DZ_6.dir/main.cpp.o: \
- /home/user/project/GromovStudy/DZ_6/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/DZ_6.dir/function.cpp.o: \
+ /home/user/project/GromovStudy/DZ_6/function.cpp \
+ /usr/include/stdc-predef.h \
  /home/user/project/GromovStudy/DZ_6/function.h \
  /usr/include/c++/12/iostream \
  /usr/include/c++/12/x86_64-redsoft-linux/bits/c++config.h \
