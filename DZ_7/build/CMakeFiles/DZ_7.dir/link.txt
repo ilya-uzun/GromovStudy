@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ CMakeFiles/DZ_7.dir/main.cpp.o CMakeFiles/DZ_7.dir/regulator.cpp.o -o DZ_7 
