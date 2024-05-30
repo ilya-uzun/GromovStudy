@@ -5,7 +5,6 @@
 int main()
 {
     Regulator heater(21, 4);
-
     heater.operate();
     heater.india();
     heater.operate(25);
