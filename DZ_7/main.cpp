@@ -1,15 +1,11 @@
-#include <iostream>
-#include "regulator.h"
+#include "mainwindow.h"
 
+#include <QApplication>
 
-int main()
+int main(int argc, char *argv[])
 {
-    Regulator heater(21, 4);
-    heater.operate();
-    heater.india();
-    heater.operate(25);
-    heater.india();
-    heater.operate(16, 20, 3);
-    heater.india();
-    return 0;
+    QApplication a(argc, argv);
+    MainWindow w;
+    w.show();
+    return a.exec();
 }

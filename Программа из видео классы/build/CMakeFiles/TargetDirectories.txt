@@ -1,0 +1,3 @@
+/home/user/project/GromovStudy/DZ_7/build/CMakeFiles/DZ_7.dir
+/home/user/project/GromovStudy/DZ_7/build/CMakeFiles/edit_cache.dir
+/home/user/project/GromovStudy/DZ_7/build/CMakeFiles/rebuild_cache.dir

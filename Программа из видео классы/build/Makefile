@@ -117,61 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloworld
+# Target rules for targets named DZ_7
 
 # Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld
-.PHONY : helloworld
+DZ_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DZ_7
+.PHONY : DZ_7
 
 # fast build rule for target.
-helloworld/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
-
-#=============================================================================
-# Target rules for targets named helloworld_autogen
-
-# Build rule for target.
-helloworld_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_autogen
-.PHONY : helloworld_autogen
-
-# fast build rule for target.
-helloworld_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_autogen.dir/build.make CMakeFiles/helloworld_autogen.dir/build
-.PHONY : helloworld_autogen/fast
-
-helloworld_autogen/mocs_compilation.o: helloworld_autogen/mocs_compilation.cpp.o
-.PHONY : helloworld_autogen/mocs_compilation.o
-
-# target to build an object file
-helloworld_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o
-.PHONY : helloworld_autogen/mocs_compilation.cpp.o
-
-helloworld_autogen/mocs_compilation.i: helloworld_autogen/mocs_compilation.cpp.i
-.PHONY : helloworld_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-helloworld_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i
-.PHONY : helloworld_autogen/mocs_compilation.cpp.i
-
-helloworld_autogen/mocs_compilation.s: helloworld_autogen/mocs_compilation.cpp.s
-.PHONY : helloworld_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-helloworld_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s
-.PHONY : helloworld_autogen/mocs_compilation.cpp.s
+DZ_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/build
+.PHONY : DZ_7/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -179,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -187,32 +150,32 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+regulator.o: regulator.cpp.o
+.PHONY : regulator.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+regulator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/regulator.cpp.o
+.PHONY : regulator.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+regulator.i: regulator.cpp.i
+.PHONY : regulator.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+regulator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/regulator.cpp.i
+.PHONY : regulator.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+regulator.s: regulator.cpp.s
+.PHONY : regulator.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+regulator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/regulator.cpp.s
+.PHONY : regulator.cpp.s
 
 # Help Target
 help:
@@ -222,17 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... helloworld_autogen"
-	@echo "... helloworld"
-	@echo "... helloworld_autogen/mocs_compilation.o"
-	@echo "... helloworld_autogen/mocs_compilation.i"
-	@echo "... helloworld_autogen/mocs_compilation.s"
+	@echo "... DZ_7"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
+	@echo "... regulator.o"
+	@echo "... regulator.i"
+	@echo "... regulator.s"
 .PHONY : help
 
 
