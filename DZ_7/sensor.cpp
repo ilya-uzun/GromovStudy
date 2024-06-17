@@ -1,6 +1,8 @@
 #include "sensor.h"
 
-float simulate(int heat){
+Sensor::Sensor(){}
+
+float Sensor::simulate(int heat){
     if (heat){
         power++;
     } else power--;

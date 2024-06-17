@@ -1,8 +1,10 @@
 #include "pid.h"
 
 
-float pid::operate(float sensor){
-        dalta = sp - sensor;
+PID::PID(){}
+
+float PID::operate(float sensor){
+        delta = sp - sensor;
         prop = delta * kp;
 
         if(output >= 0 and output <= 100) integral += delta*(1/ki);
@@ -10,7 +12,7 @@ float pid::operate(float sensor){
         diff = (delta - deltaOld) * kd;
         deltaOld = delta;
 
-        output = prop + integral + deff;
+        output = prop + integral + diff;
 
         if(output > 100) output = 100;
         if (output < 0) output = 0;

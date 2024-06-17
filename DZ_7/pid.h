@@ -3,10 +3,11 @@
 
 
 class PID{
+public:
     PID();
-    flaot output = 0;
+    float output = 0;
 
-    float operate(float );
+    float operate(float);
 
 private:
     float kp = 5;

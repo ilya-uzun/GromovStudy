@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++ CMakeFiles/DZ_7.dir/DZ_7_autogen/mocs_compilation.cpp.o CMakeFiles/DZ_7.dir/main.cpp.o CMakeFiles/DZ_7.dir/pid.cpp.o CMakeFiles/DZ_7.dir/pwm.cpp.o CMakeFiles/DZ_7.dir/sensor.cpp.o -o DZ_7  /usr/lib64/libQt5Widgets.so.5.15.9 /usr/lib64/libQt5Gui.so.5.15.9 /usr/lib64/libQt5Core.so.5.15.9 

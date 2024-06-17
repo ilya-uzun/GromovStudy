@@ -117,61 +117,61 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named helloworld
+# Target rules for targets named DZ_7
 
 # Build rule for target.
-helloworld: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld
-.PHONY : helloworld
+DZ_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DZ_7
+.PHONY : DZ_7
 
 # fast build rule for target.
-helloworld/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
-.PHONY : helloworld/fast
+DZ_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/build
+.PHONY : DZ_7/fast
 
 #=============================================================================
-# Target rules for targets named helloworld_autogen
+# Target rules for targets named DZ_7_autogen
 
 # Build rule for target.
-helloworld_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 helloworld_autogen
-.PHONY : helloworld_autogen
+DZ_7_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DZ_7_autogen
+.PHONY : DZ_7_autogen
 
 # fast build rule for target.
-helloworld_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_autogen.dir/build.make CMakeFiles/helloworld_autogen.dir/build
-.PHONY : helloworld_autogen/fast
+DZ_7_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7_autogen.dir/build.make CMakeFiles/DZ_7_autogen.dir/build
+.PHONY : DZ_7_autogen/fast
 
-helloworld_autogen/mocs_compilation.o: helloworld_autogen/mocs_compilation.cpp.o
-.PHONY : helloworld_autogen/mocs_compilation.o
+DZ_7_autogen/mocs_compilation.o: DZ_7_autogen/mocs_compilation.cpp.o
+.PHONY : DZ_7_autogen/mocs_compilation.o
 
 # target to build an object file
-helloworld_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.o
-.PHONY : helloworld_autogen/mocs_compilation.cpp.o
+DZ_7_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/DZ_7_autogen/mocs_compilation.cpp.o
+.PHONY : DZ_7_autogen/mocs_compilation.cpp.o
 
-helloworld_autogen/mocs_compilation.i: helloworld_autogen/mocs_compilation.cpp.i
-.PHONY : helloworld_autogen/mocs_compilation.i
+DZ_7_autogen/mocs_compilation.i: DZ_7_autogen/mocs_compilation.cpp.i
+.PHONY : DZ_7_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-helloworld_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.i
-.PHONY : helloworld_autogen/mocs_compilation.cpp.i
+DZ_7_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/DZ_7_autogen/mocs_compilation.cpp.i
+.PHONY : DZ_7_autogen/mocs_compilation.cpp.i
 
-helloworld_autogen/mocs_compilation.s: helloworld_autogen/mocs_compilation.cpp.s
-.PHONY : helloworld_autogen/mocs_compilation.s
+DZ_7_autogen/mocs_compilation.s: DZ_7_autogen/mocs_compilation.cpp.s
+.PHONY : DZ_7_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-helloworld_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/helloworld_autogen/mocs_compilation.cpp.s
-.PHONY : helloworld_autogen/mocs_compilation.cpp.s
+DZ_7_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/DZ_7_autogen/mocs_compilation.cpp.s
+.PHONY : DZ_7_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -179,7 +179,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -187,32 +187,80 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+pid.o: pid.cpp.o
+.PHONY : pid.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+pid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pid.cpp.o
+.PHONY : pid.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+pid.i: pid.cpp.i
+.PHONY : pid.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+pid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pid.cpp.i
+.PHONY : pid.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+pid.s: pid.cpp.s
+.PHONY : pid.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+pid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pid.cpp.s
+.PHONY : pid.cpp.s
+
+pwm.o: pwm.cpp.o
+.PHONY : pwm.o
+
+# target to build an object file
+pwm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pwm.cpp.o
+.PHONY : pwm.cpp.o
+
+pwm.i: pwm.cpp.i
+.PHONY : pwm.i
+
+# target to preprocess a source file
+pwm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pwm.cpp.i
+.PHONY : pwm.cpp.i
+
+pwm.s: pwm.cpp.s
+.PHONY : pwm.s
+
+# target to generate assembly for a file
+pwm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/pwm.cpp.s
+.PHONY : pwm.cpp.s
+
+sensor.o: sensor.cpp.o
+.PHONY : sensor.o
+
+# target to build an object file
+sensor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/sensor.cpp.o
+.PHONY : sensor.cpp.o
+
+sensor.i: sensor.cpp.i
+.PHONY : sensor.i
+
+# target to preprocess a source file
+sensor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/sensor.cpp.i
+.PHONY : sensor.cpp.i
+
+sensor.s: sensor.cpp.s
+.PHONY : sensor.s
+
+# target to generate assembly for a file
+sensor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/sensor.cpp.s
+.PHONY : sensor.cpp.s
 
 # Help Target
 help:
@@ -222,17 +270,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... helloworld_autogen"
-	@echo "... helloworld"
-	@echo "... helloworld_autogen/mocs_compilation.o"
-	@echo "... helloworld_autogen/mocs_compilation.i"
-	@echo "... helloworld_autogen/mocs_compilation.s"
+	@echo "... DZ_7_autogen"
+	@echo "... DZ_7"
+	@echo "... DZ_7_autogen/mocs_compilation.o"
+	@echo "... DZ_7_autogen/mocs_compilation.i"
+	@echo "... DZ_7_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
+	@echo "... pid.o"
+	@echo "... pid.i"
+	@echo "... pid.s"
+	@echo "... pwm.o"
+	@echo "... pwm.i"
+	@echo "... pwm.s"
+	@echo "... sensor.o"
+	@echo "... sensor.i"
+	@echo "... sensor.s"
 .PHONY : help
 
 

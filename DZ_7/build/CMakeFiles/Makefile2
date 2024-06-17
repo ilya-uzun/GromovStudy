@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/user/project/GromovStudy/DZ_7/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/helloworld.dir/all
+all: CMakeFiles/DZ_7.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +71,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/helloworld.dir/clean
-clean: CMakeFiles/helloworld_autogen.dir/clean
+clean: CMakeFiles/DZ_7.dir/clean
+clean: CMakeFiles/DZ_7_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloworld.dir
+# Target rules for target CMakeFiles/DZ_7.dir
 
 # All Build rule for target.
-CMakeFiles/helloworld.dir/all: CMakeFiles/helloworld_autogen.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_7/build/CMakeFiles --progress-num=1,2,3,4 "Built target helloworld"
-.PHONY : CMakeFiles/helloworld.dir/all
+CMakeFiles/DZ_7.dir/all: CMakeFiles/DZ_7_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_7/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target DZ_7"
+.PHONY : CMakeFiles/DZ_7.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloworld.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_7/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloworld.dir/all
+CMakeFiles/DZ_7.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_7/build/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DZ_7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_7/build/CMakeFiles 0
-.PHONY : CMakeFiles/helloworld.dir/rule
+.PHONY : CMakeFiles/DZ_7.dir/rule
 
 # Convenience name for target.
-helloworld: CMakeFiles/helloworld.dir/rule
-.PHONY : helloworld
+DZ_7: CMakeFiles/DZ_7.dir/rule
+.PHONY : DZ_7
 
 # clean rule for target.
-CMakeFiles/helloworld.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld.dir/build.make CMakeFiles/helloworld.dir/clean
-.PHONY : CMakeFiles/helloworld.dir/clean
+CMakeFiles/DZ_7.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7.dir/build.make CMakeFiles/DZ_7.dir/clean
+.PHONY : CMakeFiles/DZ_7.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/helloworld_autogen.dir
+# Target rules for target CMakeFiles/DZ_7_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/helloworld_autogen.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_autogen.dir/build.make CMakeFiles/helloworld_autogen.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_autogen.dir/build.make CMakeFiles/helloworld_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_7/build/CMakeFiles --progress-num=5 "Built target helloworld_autogen"
-.PHONY : CMakeFiles/helloworld_autogen.dir/all
+CMakeFiles/DZ_7_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7_autogen.dir/build.make CMakeFiles/DZ_7_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7_autogen.dir/build.make CMakeFiles/DZ_7_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/user/project/GromovStudy/DZ_7/build/CMakeFiles --progress-num=7 "Built target DZ_7_autogen"
+.PHONY : CMakeFiles/DZ_7_autogen.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/helloworld_autogen.dir/rule: cmake_check_build_system
+CMakeFiles/DZ_7_autogen.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_7/build/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/helloworld_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DZ_7_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/project/GromovStudy/DZ_7/build/CMakeFiles 0
-.PHONY : CMakeFiles/helloworld_autogen.dir/rule
+.PHONY : CMakeFiles/DZ_7_autogen.dir/rule
 
 # Convenience name for target.
-helloworld_autogen: CMakeFiles/helloworld_autogen.dir/rule
-.PHONY : helloworld_autogen
+DZ_7_autogen: CMakeFiles/DZ_7_autogen.dir/rule
+.PHONY : DZ_7_autogen
 
 # clean rule for target.
-CMakeFiles/helloworld_autogen.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/helloworld_autogen.dir/build.make CMakeFiles/helloworld_autogen.dir/clean
-.PHONY : CMakeFiles/helloworld_autogen.dir/clean
+CMakeFiles/DZ_7_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DZ_7_autogen.dir/build.make CMakeFiles/DZ_7_autogen.dir/clean
+.PHONY : CMakeFiles/DZ_7_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

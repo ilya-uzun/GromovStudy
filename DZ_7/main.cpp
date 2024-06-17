@@ -5,7 +5,7 @@
 #include <QString>
 #include <iostream>
 
-int maun (){
+int main(){
     Sensor temperature;
     PID regulator;
     PWM pwm;
@@ -16,9 +16,9 @@ int maun (){
     file.write("Temparture;Regulator\n");
 
     for (int i; i < 2000; i++){
-        regulator.operate(temperature.output);
-        pwm.operate(regulator.output);
-        temperature.simulate(pwm.state);
+       regulator.operate(temperature.output);
+       pwm.operate(regulator.output);
+       temperature.simulate(pwm.state);
 
         QString data = QString::number(temperature.output) + ";" + QString::number(regulator.output) + "\n";
         file.write(data.toStdString().c_str());

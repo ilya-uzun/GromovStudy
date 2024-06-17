@@ -5,14 +5,9 @@ class PWM{
 public:
     PWM();
     int state;
-    int operate(float analog){
-        if ((100 / cycle + counter) < analog) {
-            state = 1;
-        }
-        else state = 0;
-    }
+    int operate(float);
 private:
-    float cecle = 20;
+    float cycle = 20;
     int counter = 0;
 };
 
